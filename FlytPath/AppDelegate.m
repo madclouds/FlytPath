@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Erik Bye. All rights reserved.
 //
 
+
 #import "AppDelegate.h"
 
 @implementation AppDelegate
@@ -13,6 +14,32 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    
+    
+    
+    [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationLandscapeRight];
+    
+    
+    
+    TitleViewController* home = [[TitleViewController alloc] initWithNibName:nil bundle:nil];
+    
+    
+    self.window.tintColor = [UIColor whiteColor];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    if ([self.window respondsToSelector:@selector(setRootViewController:)] ) {
+        [self.window setRootViewController:home];
+    }
+    else
+    {
+        [self.window addSubview:home.view];
+    }
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

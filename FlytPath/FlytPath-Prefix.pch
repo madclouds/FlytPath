@@ -5,6 +5,11 @@
 //
 
 #import <Availability.h>
+#define REVIEW_URL_PART_1 @"http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id="
+#define REVIEW_URL_PART_2 @"&pageNumber=0&sortOrdering=1&type=Purple+Software&mt=8"
+#define APP_ID @"918595185"
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 #ifndef __IPHONE_5_0
 #warning "This project uses features only available in iOS SDK 5.0 and later."

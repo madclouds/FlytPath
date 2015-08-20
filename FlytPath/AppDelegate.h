@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TitleViewController.h"
+#import "SlideNavigationController.h"
+#import "SideMenuViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

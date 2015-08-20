@@ -7,35 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22801F661A9E3828001DA901 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22801F651A9E3828001DA901 /* SlideNavigationController.m */; };
+		22801F731A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 22801F691A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlide.m */; };
+		22801F741A9E385D001DA901 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 22801F6B1A9E385D001DA901 /* SlideNavigationContorllerAnimatorFade.m */; };
+		22801F751A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 22801F6D1A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		22801F761A9E385D001DA901 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 22801F6F1A9E385D001DA901 /* SlideNavigationContorllerAnimatorScale.m */; };
+		22801F771A9E385D001DA901 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 22801F711A9E385D001DA901 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		2288FEFB1A9BEABC00E680FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2288FEFA1A9BEABC00E680FB /* Images.xcassets */; };
 		22E3D26619C35FE600025701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E3D26519C35FE600025701 /* Foundation.framework */; };
 		22E3D26819C35FE600025701 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E3D26719C35FE600025701 /* CoreGraphics.framework */; };
 		22E3D26A19C35FE600025701 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E3D26919C35FE600025701 /* UIKit.framework */; };
 		22E3D27019C35FE600025701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22E3D26E19C35FE600025701 /* InfoPlist.strings */; };
 		22E3D27219C35FE600025701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E3D27119C35FE600025701 /* main.m */; };
 		22E3D27619C35FE600025701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E3D27519C35FE600025701 /* AppDelegate.m */; };
-		22E3D27919C35FE600025701 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E3D27719C35FE600025701 /* Main_iPhone.storyboard */; };
-		22E3D27C19C35FE600025701 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E3D27A19C35FE600025701 /* Main_iPad.storyboard */; };
-		22E3D27F19C35FE600025701 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E3D27E19C35FE600025701 /* ViewController.m */; };
-		22E3D28119C35FE600025701 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E3D28019C35FE600025701 /* Images.xcassets */; };
-		22E3D28819C35FE600025701 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E3D28719C35FE600025701 /* XCTest.framework */; };
-		22E3D28919C35FE600025701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E3D26519C35FE600025701 /* Foundation.framework */; };
-		22E3D28A19C35FE600025701 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E3D26919C35FE600025701 /* UIKit.framework */; };
-		22E3D29219C35FE600025701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22E3D29019C35FE600025701 /* InfoPlist.strings */; };
-		22E3D29419C35FE600025701 /* FlytPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E3D29319C35FE600025701 /* FlytPathTests.m */; };
+		22E3D27F19C35FE600025701 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E3D27E19C35FE600025701 /* HomeViewController.m */; };
+		22E3D29F19C3689E00025701 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E3D29E19C3689E00025701 /* ListViewController.m */; };
+		22E3D2A219C368A600025701 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E3D2A119C368A600025701 /* DetailViewController.m */; };
+		22E3D2A519C36B3900025701 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E3D2A419C36B3900025701 /* WebViewController.m */; };
+		F416DFE01AA0072D00B152BA /* DeveloperWebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F416DFDF1AA0072D00B152BA /* DeveloperWebsiteViewController.m */; };
+		F4189AD71A840C880014287E /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = F4189AD61A840C880014287E /* backbutton.png */; };
+		F422462C1A83EAD3002C7D70 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F422462B1A83EAD3002C7D70 /* TitleViewController.m */; };
+		F422462E1A83EB20002C7D70 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = F422462D1A83EB20002C7D70 /* title.png */; };
+		F42246371A83EE60002C7D70 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42246351A83EE60002C7D70 /* SideMenuViewController.m */; };
+		F42246381A83EE60002C7D70 /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F42246361A83EE60002C7D70 /* SideMenuViewController.xib */; };
+		F422463D1A83F162002C7D70 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F422463C1A83F162002C7D70 /* BaseViewController.m */; };
+		F422463F1A83F235002C7D70 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F422463E1A83F235002C7D70 /* bg.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		22E3D28B19C35FE600025701 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 22E3D25A19C35FE600025701 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 22E3D26119C35FE600025701;
-			remoteInfo = FlytPath;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		22E3D26219C35FE600025701 /* FlytPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlytPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22801F641A9E3828001DA901 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		22801F651A9E3828001DA901 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		22801F681A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		22801F691A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		22801F6A1A9E385D001DA901 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		22801F6B1A9E385D001DA901 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		22801F6C1A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		22801F6D1A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		22801F6E1A9E385D001DA901 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		22801F6F1A9E385D001DA901 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		22801F701A9E385D001DA901 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		22801F711A9E385D001DA901 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		22801F721A9E385D001DA901 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		2288FEFA1A9BEABC00E680FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22E3D26219C35FE600025701 /* Flyt Path.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flyt Path.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E3D26519C35FE600025701 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22E3D26719C35FE600025701 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		22E3D26919C35FE600025701 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -45,16 +59,27 @@
 		22E3D27319C35FE600025701 /* FlytPath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlytPath-Prefix.pch"; sourceTree = "<group>"; };
 		22E3D27419C35FE600025701 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22E3D27519C35FE600025701 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		22E3D27819C35FE600025701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		22E3D27B19C35FE600025701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		22E3D27D19C35FE600025701 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		22E3D27E19C35FE600025701 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		22E3D28019C35FE600025701 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		22E3D28619C35FE600025701 /* FlytPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlytPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E3D27D19C35FE600025701 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		22E3D27E19C35FE600025701 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		22E3D28719C35FE600025701 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		22E3D28F19C35FE600025701 /* FlytPathTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlytPathTests-Info.plist"; sourceTree = "<group>"; };
-		22E3D29119C35FE600025701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		22E3D29319C35FE600025701 /* FlytPathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlytPathTests.m; sourceTree = "<group>"; };
+		22E3D29D19C3689E00025701 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		22E3D29E19C3689E00025701 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		22E3D2A019C368A600025701 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		22E3D2A119C368A600025701 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		22E3D2A319C36B3900025701 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		22E3D2A419C36B3900025701 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		F416DFDE1AA0072D00B152BA /* DeveloperWebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeveloperWebsiteViewController.h; sourceTree = "<group>"; };
+		F416DFDF1AA0072D00B152BA /* DeveloperWebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeveloperWebsiteViewController.m; sourceTree = "<group>"; };
+		F4189AD61A840C880014287E /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
+		F422462A1A83EAD3002C7D70 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		F422462B1A83EAD3002C7D70 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		F422462D1A83EB20002C7D70 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = ../../../Assets/Flytpath/title.png; sourceTree = "<group>"; };
+		F42246341A83EE60002C7D70 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		F42246351A83EE60002C7D70 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		F42246361A83EE60002C7D70 /* SideMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
+		F422463B1A83F162002C7D70 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F422463C1A83F162002C7D70 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F422463E1A83F235002C7D70 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../../../Assets/Flytpath/bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,24 +93,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22E3D28319C35FE600025701 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22E3D28819C35FE600025701 /* XCTest.framework in Frameworks */,
-				22E3D28A19C35FE600025701 /* UIKit.framework in Frameworks */,
-				22E3D28919C35FE600025701 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22801F671A9E384F001DA901 /* SlideNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				22801F641A9E3828001DA901 /* SlideNavigationController.h */,
+				22801F651A9E3828001DA901 /* SlideNavigationController.m */,
+				22801F681A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlide.h */,
+				22801F691A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlide.m */,
+				22801F6A1A9E385D001DA901 /* SlideNavigationContorllerAnimatorFade.h */,
+				22801F6B1A9E385D001DA901 /* SlideNavigationContorllerAnimatorFade.m */,
+				22801F6C1A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				22801F6D1A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+				22801F6E1A9E385D001DA901 /* SlideNavigationContorllerAnimatorScale.h */,
+				22801F6F1A9E385D001DA901 /* SlideNavigationContorllerAnimatorScale.m */,
+				22801F701A9E385D001DA901 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				22801F711A9E385D001DA901 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				22801F721A9E385D001DA901 /* SlideNavigationContorllerAnimator.h */,
+			);
+			name = SlideNavigationController;
+			sourceTree = "<group>";
+		};
 		22E3D25919C35FE600025701 = {
 			isa = PBXGroup;
 			children = (
 				22E3D26B19C35FE600025701 /* FlytPath */,
-				22E3D28D19C35FE600025701 /* FlytPathTests */,
 				22E3D26419C35FE600025701 /* Frameworks */,
 				22E3D26319C35FE600025701 /* Products */,
 			);
@@ -94,8 +128,7 @@
 		22E3D26319C35FE600025701 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22E3D26219C35FE600025701 /* FlytPath.app */,
-				22E3D28619C35FE600025701 /* FlytPathTests.xctest */,
+				22E3D26219C35FE600025701 /* Flyt Path.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,11 +149,8 @@
 			children = (
 				22E3D27419C35FE600025701 /* AppDelegate.h */,
 				22E3D27519C35FE600025701 /* AppDelegate.m */,
-				22E3D27719C35FE600025701 /* Main_iPhone.storyboard */,
-				22E3D27A19C35FE600025701 /* Main_iPad.storyboard */,
-				22E3D27D19C35FE600025701 /* ViewController.h */,
-				22E3D27E19C35FE600025701 /* ViewController.m */,
-				22E3D28019C35FE600025701 /* Images.xcassets */,
+				F422463A1A83EF27002C7D70 /* XIB */,
+				F42246391A83EF21002C7D70 /* ViewControllers */,
 				22E3D26C19C35FE600025701 /* Supporting Files */,
 			);
 			path = FlytPath;
@@ -129,6 +159,11 @@
 		22E3D26C19C35FE600025701 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				22801F671A9E384F001DA901 /* SlideNavigationController */,
+				2288FEFA1A9BEABC00E680FB /* Images.xcassets */,
+				F4189AD61A840C880014287E /* backbutton.png */,
+				F422463E1A83F235002C7D70 /* bg.png */,
+				F422462D1A83EB20002C7D70 /* title.png */,
 				22E3D26D19C35FE600025701 /* FlytPath-Info.plist */,
 				22E3D26E19C35FE600025701 /* InfoPlist.strings */,
 				22E3D27119C35FE600025701 /* main.m */,
@@ -137,22 +172,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		22E3D28D19C35FE600025701 /* FlytPathTests */ = {
+		F42246391A83EF21002C7D70 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				22E3D29319C35FE600025701 /* FlytPathTests.m */,
-				22E3D28E19C35FE600025701 /* Supporting Files */,
+				F422462A1A83EAD3002C7D70 /* TitleViewController.h */,
+				F422462B1A83EAD3002C7D70 /* TitleViewController.m */,
+				22E3D27D19C35FE600025701 /* HomeViewController.h */,
+				22E3D27E19C35FE600025701 /* HomeViewController.m */,
+				22E3D29D19C3689E00025701 /* ListViewController.h */,
+				22E3D29E19C3689E00025701 /* ListViewController.m */,
+				22E3D2A019C368A600025701 /* DetailViewController.h */,
+				22E3D2A119C368A600025701 /* DetailViewController.m */,
+				22E3D2A319C36B3900025701 /* WebViewController.h */,
+				22E3D2A419C36B3900025701 /* WebViewController.m */,
+				F42246341A83EE60002C7D70 /* SideMenuViewController.h */,
+				F42246351A83EE60002C7D70 /* SideMenuViewController.m */,
+				F422463B1A83F162002C7D70 /* BaseViewController.h */,
+				F422463C1A83F162002C7D70 /* BaseViewController.m */,
+				F416DFDE1AA0072D00B152BA /* DeveloperWebsiteViewController.h */,
+				F416DFDF1AA0072D00B152BA /* DeveloperWebsiteViewController.m */,
 			);
-			path = FlytPathTests;
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		22E3D28E19C35FE600025701 /* Supporting Files */ = {
+		F422463A1A83EF27002C7D70 /* XIB */ = {
 			isa = PBXGroup;
 			children = (
-				22E3D28F19C35FE600025701 /* FlytPathTests-Info.plist */,
-				22E3D29019C35FE600025701 /* InfoPlist.strings */,
+				F42246361A83EE60002C7D70 /* SideMenuViewController.xib */,
 			);
-			name = "Supporting Files";
+			name = XIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,26 +220,8 @@
 			);
 			name = FlytPath;
 			productName = FlytPath;
-			productReference = 22E3D26219C35FE600025701 /* FlytPath.app */;
+			productReference = 22E3D26219C35FE600025701 /* Flyt Path.app */;
 			productType = "com.apple.product-type.application";
-		};
-		22E3D28519C35FE600025701 /* FlytPathTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22E3D29A19C35FE600025701 /* Build configuration list for PBXNativeTarget "FlytPathTests" */;
-			buildPhases = (
-				22E3D28219C35FE600025701 /* Sources */,
-				22E3D28319C35FE600025701 /* Frameworks */,
-				22E3D28419C35FE600025701 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				22E3D28C19C35FE600025701 /* PBXTargetDependency */,
-			);
-			name = FlytPathTests;
-			productName = FlytPathTests;
-			productReference = 22E3D28619C35FE600025701 /* FlytPathTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -201,11 +231,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Erik Bye";
-				TargetAttributes = {
-					22E3D28519C35FE600025701 = {
-						TestTargetID = 22E3D26119C35FE600025701;
-					};
-				};
 			};
 			buildConfigurationList = 22E3D25D19C35FE600025701 /* Build configuration list for PBXProject "FlytPath" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,7 +246,6 @@
 			projectRoot = "";
 			targets = (
 				22E3D26119C35FE600025701 /* FlytPath */,
-				22E3D28519C35FE600025701 /* FlytPathTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,18 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E3D27C19C35FE600025701 /* Main_iPad.storyboard in Resources */,
-				22E3D28119C35FE600025701 /* Images.xcassets in Resources */,
-				22E3D27919C35FE600025701 /* Main_iPhone.storyboard in Resources */,
+				F4189AD71A840C880014287E /* backbutton.png in Resources */,
+				F422463F1A83F235002C7D70 /* bg.png in Resources */,
+				F42246381A83EE60002C7D70 /* SideMenuViewController.xib in Resources */,
+				2288FEFB1A9BEABC00E680FB /* Images.xcassets in Resources */,
 				22E3D27019C35FE600025701 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22E3D28419C35FE600025701 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22E3D29219C35FE600025701 /* InfoPlist.strings in Resources */,
+				F422462E1A83EB20002C7D70 /* title.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,59 +271,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E3D27F19C35FE600025701 /* ViewController.m in Sources */,
+				F422462C1A83EAD3002C7D70 /* TitleViewController.m in Sources */,
+				F422463D1A83F162002C7D70 /* BaseViewController.m in Sources */,
+				22E3D2A219C368A600025701 /* DetailViewController.m in Sources */,
+				22E3D2A519C36B3900025701 /* WebViewController.m in Sources */,
+				22E3D27F19C35FE600025701 /* HomeViewController.m in Sources */,
+				F42246371A83EE60002C7D70 /* SideMenuViewController.m in Sources */,
+				F416DFE01AA0072D00B152BA /* DeveloperWebsiteViewController.m in Sources */,
+				22801F741A9E385D001DA901 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				22801F731A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				22801F751A9E385D001DA901 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				22E3D27619C35FE600025701 /* AppDelegate.m in Sources */,
+				22801F771A9E385D001DA901 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				22E3D29F19C3689E00025701 /* ListViewController.m in Sources */,
 				22E3D27219C35FE600025701 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22E3D28219C35FE600025701 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22E3D29419C35FE600025701 /* FlytPathTests.m in Sources */,
+				22801F661A9E3828001DA901 /* SlideNavigationController.m in Sources */,
+				22801F761A9E385D001DA901 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		22E3D28C19C35FE600025701 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 22E3D26119C35FE600025701 /* FlytPath */;
-			targetProxy = 22E3D28B19C35FE600025701 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		22E3D26E19C35FE600025701 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				22E3D26F19C35FE600025701 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		22E3D27719C35FE600025701 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22E3D27819C35FE600025701 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		22E3D27A19C35FE600025701 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22E3D27B19C35FE600025701 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		22E3D29019C35FE600025701 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22E3D29119C35FE600025701 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -389,11 +380,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = SplashScreen;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlytPath/FlytPath-Prefix.pch";
 				INFOPLIST_FILE = "FlytPath/FlytPath-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flyt Path";
+				PROVISIONING_PROFILE = "c5e9875e-6eae-41d5-80e1-e53255da1689";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,52 +395,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = SplashScreen;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlytPath/FlytPath-Prefix.pch";
 				INFOPLIST_FILE = "FlytPath/FlytPath-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flyt Path";
+				PROVISIONING_PROFILE = "c5e9875e-6eae-41d5-80e1-e53255da1689";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		22E3D29B19C35FE600025701 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlytPath.app/FlytPath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlytPath/FlytPath-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "FlytPathTests/FlytPathTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		22E3D29C19C35FE600025701 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlytPath.app/FlytPath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlytPath/FlytPath-Prefix.pch";
-				INFOPLIST_FILE = "FlytPathTests/FlytPathTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -470,14 +425,7 @@
 				22E3D29919C35FE600025701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		22E3D29A19C35FE600025701 /* Build configuration list for PBXNativeTarget "FlytPathTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22E3D29B19C35FE600025701 /* Debug */,
-				22E3D29C19C35FE600025701 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
