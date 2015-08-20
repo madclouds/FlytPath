@@ -1,8 +1,8 @@
 # FlytPath - Drone Tips -  Sample App
 
-![FlytPath Menu](http://erikbye.me/dev/flytpath1.png =200px)
-![FlytPath Content](http://erikbye.me/dev/flytpath2.png =200px)
-![FlytPath Side Menu](http://erikbye.me/dev/flytpath3.png =200px)
+![FlytPath Menu](http://erikbye.me/dev/flytpath1.png)
+![FlytPath Content](http://erikbye.me/dev/flytpath2.png)
+![FlytPath Side Menu](http://erikbye.me/dev/flytpath3.png)
 
 FlytPath provides tips and videos on how to better opperate your drone.
 
